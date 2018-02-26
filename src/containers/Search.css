@@ -1,0 +1,31 @@
+.Search {
+    display: grid;
+
+    width: 100vw;
+    height: 100vh;
+
+    grid-template-columns: 20% auto;
+}
+
+.Search form {
+    align-content: center;
+
+    padding: 20px;
+
+    background-color: #666;
+
+    grid-column: 1 / 1;
+}
+
+.Search .search-results {
+    overflow-y: auto;
+
+    padding: 20px;
+
+    grid-column: 2 / 2;
+}
+
+.Search input,
+.Search button {
+    width: 100%;
+}
